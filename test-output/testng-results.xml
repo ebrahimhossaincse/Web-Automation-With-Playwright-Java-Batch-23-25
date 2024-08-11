@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-10T12:22:23 EDT" name="Default suite" finished-at="2024-08-10T12:22:32 EDT" duration-ms="8644">
+    <groups>
+    </groups>
+    <test started-at="2024-08-10T12:22:23 EDT" name="Default test" finished-at="2024-08-10T12:22:32 EDT" duration-ms="8644">
+      <class name="me.ebrahimhossain.Locators">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:me.ebrahimhossain.Locators@72e5a8e]" started-at="2024-08-10T12:22:17 EDT" name="startChromeBrowser" finished-at="2024-08-10T12:22:23 EDT" duration-ms="6604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="locateByTagName()[pri:0, instance:me.ebrahimhossain.Locators@72e5a8e]" started-at="2024-08-10T12:22:23 EDT" name="locateByTagName" finished-at="2024-08-10T12:22:32 EDT" duration-ms="8565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByTagName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:me.ebrahimhossain.Locators@72e5a8e]" started-at="2024-08-10T12:22:32 EDT" name="closeBrowser" finished-at="2024-08-10T12:22:32 EDT" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- me.ebrahimhossain.Locators -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
