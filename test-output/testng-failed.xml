@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="me.ebrahimhossain.AssertionExample">
+      <class name="me.ebrahimhossain.FrameHandle">
         <methods>
-          <include name="openURL"/>
-          <include name="closeBrowser"/>
           <include name="startChromeBrowser"/>
+          <include name="switchToFrame"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- me.ebrahimhossain.AssertionExample -->
+      </class> <!-- me.ebrahimhossain.FrameHandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
